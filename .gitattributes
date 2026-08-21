@@ -1,0 +1,29 @@
+# Keep HDL counted correctly
+*.v linguist-language=Verilog
+*.sv linguist-language=SystemVerilog
+
+# Vivado / Xilinx generated artifacts (exclude from language stats)
+*.tcl linguist-generated=true
+*.jou linguist-generated=true
+*.log linguist-generated=true
+*.xpr linguist-generated=true
+*.str linguist-generated=true
+*.mmi linguist-generated=true
+*.dcp linguist-generated=true
+*.bit linguist-generated=true
+*.bin linguist-generated=true
+*.ltx linguist-generated=true
+*.rpt linguist-generated=true
+*.pb linguist-generated=true
+*.xml linguist-generated=true
+*.wdb linguist-generated=true
+
+# Common Vivado-generated directories
+.Xil/** linguist-generated=true
+*.cache/** linguist-generated=true
+*.hw/** linguist-generated=true
+*.ip_user_files/** linguist-generated=true
+*.runs/** linguist-generated=true
+*.sim/** linguist-generated=true
+*.gen/** linguist-generated=true
+*.srcs/** linguist-generated=true
